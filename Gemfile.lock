@@ -74,14 +74,9 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-<<<<<<< HEAD
     coffee-script-source (1.7.1)
     columnize (0.8.9)
     coveralls (0.7.1)
-=======
-    coffee-script-source (1.7.0)
-    coveralls (0.7.0)
->>>>>>> Adding gctools/oobgc, moving to Ruby 2.1.2, upgrading to Rails 3.2.18, removing debugger gem (fails at 2.1.2)
       multi_json (~> 1.3)
       rest-client
       simplecov (>= 0.7)
@@ -367,6 +362,7 @@ DEPENDENCIES
   responds_to_parent (>= 1.1.0)
   rspec-rails (~> 2)
   sass
+  rollbar
   sass-rails (~> 3.2.3)
   select2-rails
   selenium-webdriver

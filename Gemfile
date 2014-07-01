@@ -72,6 +72,7 @@ group :heroku do
   gem 'rails_12factor'
   gem 'newrelic_rpm'
   gem 'gctools'
+  gem 'rollbar'
 end
 
 # Gems used only for assets and not required
