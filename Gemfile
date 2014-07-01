@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
+
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
 # gem 'mysql2'
@@ -50,7 +52,6 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 2'
   gem 'headless'
-  gem 'debugger', :platforms => 'mri_19' unless ENV["CI"]
   gem 'byebug', :platforms => ['mri_20', 'mri_21'] unless ENV["CI"]
   gem 'pry-rails' unless ENV["CI"]
 end
@@ -70,6 +71,7 @@ group :heroku do
   gem 'unicorn', :platform => :ruby
   gem 'rails_12factor'
   gem 'newrelic_rpm'
+  gem 'gctools'
 end
 
 # Gems used only for assets and not required
