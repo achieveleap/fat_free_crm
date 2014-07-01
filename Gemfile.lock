@@ -156,6 +156,8 @@ GEM
     netrc (0.7.7)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
+    newrelic_rpm (3.9.0.229)
+    nio4r (1.0.0)
     paper_trail (2.7.2)
       activerecord (~> 3.0)
       railties (~> 3.0)
@@ -346,6 +348,7 @@ DEPENDENCIES
   haml
   headless
   jquery-rails (~> 2.1.4)
+  newrelic_rpm
   nokogiri
   paper_trail (~> 2.7.0)
   paperclip
