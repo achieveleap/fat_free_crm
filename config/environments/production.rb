@@ -61,5 +61,7 @@ if defined?(FatFreeCRM::Application)
 
     # Send deprecation notices to registered listeners
     config.active_support.deprecation = :notify
+
+    config.action_mailer.default_url_options = { :host => 'crm.codeminer42.com' }
   end
 end
